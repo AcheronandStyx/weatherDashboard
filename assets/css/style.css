@@ -1,0 +1,24 @@
+:root {
+    --primary: #4169e1;
+    --light: #F0EAD6; 
+    --dark: #000000;
+}
+
+.title {
+    font-size: 3rem;
+    color: var(--light);
+    padding: 0 10px;
+    display: inline-block;
+    border-radius: var(--border-radius);
+    box-shadow: 6px 5px var(--dark);
+}
+
+.hero {
+    padding: 3% 4%;
+    background-color: var(--primary);
+    color: var(--light);
+  }
+
+  .searchBtn {
+      color: var(--dark);
+  }

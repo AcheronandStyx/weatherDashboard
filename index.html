@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+<body class="flex-column min-100-vh title">
+    <header class="hero">
+        <h1 class="title">Weather Dashboard</h1>
+    </header>
+
+    <main class="flex-row justify-space-between">
+        <div id="sidebar">
+            <div class="searchForm" id="search">
+                <h3 class="searchBtn">Search for a City:</h3>
+                <form id="city-form" class="card-body">
+                    <input name="cityName" id="cityName" type="text" autofocus="true" class="form-input" />
+                    <button type="submit" class="btn">Search</button>
+                </form>
+            </div>
+            <div id="pastSearches">
+                <ul id="savedSearches">
+                    <!-- Append past search options here -->
+                </ul>
+            </div>
+        </div>
+        <div id="city">
+            <div id="cityDetail">
+                 <!-- Append city detail element here -->
+            </div>
+            <div id="fiveDay">
+                <!-- Append 5day forecast cards here -->
+            </div>
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
